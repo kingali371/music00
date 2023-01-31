@@ -98,9 +98,9 @@ async def start(client: Client, message: Message):
 @Client.on_message(command(["سورس","ياسورس","السورس","source","يا سورس"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_video(
-        video=f"https://telegra.ph/file/08d12aa31c5c41e51f6f2.jpg",
-        caption=f"""[⊱⋅━═━═━『 𝗩𝗘𝗡𝗢𝗠 』─━═━═━⋅⊰](https://t.me/MRv7x)
- [𝘞𝘌𝘓𝘊𝘖𝘔𝘌 𝘚𝘖𝘜𝘙𝘊𝘌 𝘝𝘌𝘕𝘖𝘔](https://t.me/MRv7x)
+        video=f"https://t.me/EE_20/2",
+        caption=f"""[⊱⋅━═━═『 𝗩𝗘𝗡𝗢𝗠 』═━═━⋅⊰](https://t.me/MRv7x)
+ [𝘞𝘌𝘓𝘊𝘖𝘔𝘌 𝘝𝘌𝘕𝘖𝘔](https://t.me/MRv7x)
 
  [𝗦𝗢𝗨𝗥𝗖𝗘 𝗩𝗘𝗡𝗢𝗠](https://t.me/MRv7x)
 
