@@ -45,12 +45,12 @@
     "SUPPORT_GROUP": {
       "description": "معرف جروبك بدون @",
       "required": false,
-      "value": "devahmedfr"
+      "value": "EE_47"
     },
      "UPDATES_CHANNEL": {
       "description": "معرف قناتك بدون @",
        "required": true,
-       "value": ""
+       "value": "MRv7x"
      }, 
      "SUDO_USERS": {
       "description": "ضع ايدي بتاعك",
