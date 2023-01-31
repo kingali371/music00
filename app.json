@@ -1,0 +1,79 @@
+{
+  "name": "سورس فينوم ",
+  "logo": "https://telegra.ph/file/08d12aa31c5c41e51f6f2.jpg",
+  "description": "A SuperFast VC Player bot to play songs in Telegram Video Chat. Powered by PyTgCalls.",
+  "keywords": ["music", "voicechat", "telegram", "fallen"],
+  "repository": "https://github.com/frawnwa3/se",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "ضع كود بايروجرام",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "ضع توكن بوتك",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description":" معرف بوتك @",
+      "required": false,
+      "value": ""
+    },
+    "BOT_USERNAME": {
+      "description": " معرف بوتك مره تانيه بدون @",
+      "required": false,
+      "value": ""
+    },
+    "API_ID": {
+      "description": "ايبي ايدي ضع هنا my.telegram.org/apps",
+      "required": false
+    },
+    "API_HASH": {
+      "description": "ايبي هاش ضع هنا my.telegram.org/apps",
+      "required": false
+    },
+    "ASSISTANT_NAME": {
+            "description": "قم بوضع يوزر الحساب المساعد بدون علامة @",
+            "required": true,
+            "value": "" 
+     }, 
+     "OWNER_USERNAME": {
+      "description": "معرف مطور البوت بدون @",
+      "required": false,
+      "value": ""
+    },
+    "SUPPORT_GROUP": {
+      "description": "معرف جروبك بدون @",
+      "required": false,
+      "value": "devahmedfr"
+    },
+     "UPDATES_CHANNEL": {
+      "description": "معرف قناتك بدون @",
+       "required": true,
+       "value": ""
+     }, 
+     "SUDO_USERS": {
+      "description": "ضع ايدي بتاعك",
+      "required": true,
+      "value": ""
+    },
+    "START_IMG": {
+      "description": "ضع صورة البوت مره تانيه",
+      "required": false
+    },
+    "PING_IMG": {
+      "description": "ضع صورة البوت",
+      "required": false
+    },
+    "PMPERMIT": {
+      "description": "لا تغيرها",
+      "required": false,
+      "value": "ENABLE"
+    },
+    "DURATION_LIMIT": {
+      "description": "لا تغيرها",
+      "required": false,
+      "value": "90"
+    }
+  }
+}
