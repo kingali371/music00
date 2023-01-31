@@ -10,7 +10,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_IMG}",
-        caption=f"""**⊱⋅━═━═[『 𝗩𝗘𝗡𝗢𝗠 』](https://t.me/MRv7x)═━═━⋅⊰**\n
+        caption=f"""**⊱⋅━═━═━[『 𝗩𝗘𝗡𝗢𝗠 』](https://t.me/MRv7x)━═━═━⋅⊰**\n
 
 ● **انا بوت تشغيل وتنزيل الاغاني والفديو**\n
  ● **اضفني مشرف في مجموعتك لأعمل**\n
@@ -18,7 +18,7 @@ async def start_(client: Client, message: Message):
  ● **اضغط علي ذر طريقه الاستخدام**\n
  ● **مميزات الروبوت يعمل بجودة فائقه**\n
 
-**⊱⋅━═━═[『 𝗩𝗘𝗡𝗢𝗠 』](https://t.me/MRv7x)═━═━⋅⊰**\n""",
+**⊱⋅━═━═━[『 𝗩𝗘𝗡𝗢𝗠 』](https://t.me/MRv7x)━═━═━⋅⊰**\n""",
     reply_markup=InlineKeyboardMarkup(
              [
             [
@@ -72,7 +72,7 @@ async def khalid(client: Client, message: Message):
 @Client.on_message(command(["أسامة","أسامه","اسامه","اسامة"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://t.me/SOURCE_VENOM/2",
+        photo=f"https://telegra.ph/file/08d12aa31c5c41e51f6f2.jpg",
         caption=f""" مبرمج السورس أُسامه فينوم """,
         reply_markup=InlineKeyboardMarkup(
          [
@@ -93,9 +93,9 @@ async def start(client: Client, message: Message):
 
 @Client.on_message(command(["سورس","ياسورس","السورس","source","يا سورس"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
-    await message.reply_video(
-        video=f"https://t.me/SOURCE_VENOM/2",
-        caption=f"""[⊱⋅━═━═『 𝗩𝗘𝗡𝗢𝗠 』═━═━⋅⊰](https://t.me/MRv7x)
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/08d12aa31c5c41e51f6f2.jpg",
+        caption=f"""[⊱⋅━═━═━『 𝗩𝗘𝗡𝗢𝗠 』━═━═━⋅⊰](https://t.me/MRv7x)
  [𝘞𝘌𝘓𝘊𝘖𝘔𝘌 𝘝𝘌𝘕𝘖𝘔](https://t.me/MRv7x)
 
  [𝗦𝗢𝗨𝗥𝗖𝗘 𝗩𝗘𝗡𝗢𝗠](https://t.me/MRv7x)
@@ -105,7 +105,7 @@ async def help(client: Client, message: Message):
  [𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥𝗦](https://t.me/SOURCE_VENOM)
 ──┈┈┈┄┄╌╌╌╌┄┄┈┈┈
 [● تنصيب بوت مثل هذا 🎧](https://t.me/WWWL5)
-[⊱⋅━═━═『 𝗩𝗘𝗡𝗢𝗠 』═━═━⋅⊰](https://t.me/MRv7x)""",
+[⊱⋅━═━═━『 𝗩𝗘𝗡𝗢𝗠 』━═━═━⋅⊰](https://t.me/MRv7x)""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
