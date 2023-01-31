@@ -11,13 +11,11 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_IMG}",
         caption=f"""**⊱⋅━═━═━[『 𝗩𝗘𝗡𝗢𝗠 』](https://t.me/MRv7x)━═━═━⋅⊰**\n
-
 ● **انا بوت تشغيل وتنزيل الاغاني والفديو**\n
  ● **اضفني مشرف في مجموعتك لأعمل**\n
  ●**اتبع مايلي لمعرفه كيفيه الاستخدام**\n
  ● **اضغط علي ذر طريقه الاستخدام**\n
  ● **مميزات الروبوت يعمل بجودة فائقه**\n
-
 **⊱⋅━═━═━[『 𝗩𝗘𝗡𝗢𝗠 』](https://t.me/MRv7x)━═━═━⋅⊰**\n""",
     reply_markup=InlineKeyboardMarkup(
              [
@@ -50,7 +48,7 @@ async def start_(client: Client, message: Message):
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/08d12aa31c5c41e51f6f2.jpg",
-        caption=f"""مبرمج السورس أسامه فينوم""",
+        caption=f""" 𝘞𝘌𝘓𝘊𝘖𝘔𝘌 𝘝𝘌𝘕𝘖𝘔 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -73,7 +71,7 @@ async def khalid(client: Client, message: Message):
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/08d12aa31c5c41e51f6f2.jpg",
-        caption=f""" مبرمج السورس أُسامه فينوم """,
+        caption=f""" 𝘞𝘌𝘓𝘊𝘖𝘔𝘌 𝘝𝘌𝘕𝘖𝘔 """,
         reply_markup=InlineKeyboardMarkup(
          [
             [
@@ -95,17 +93,17 @@ async def start(client: Client, message: Message):
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/08d12aa31c5c41e51f6f2.jpg",
-        caption=f"""[⊱⋅━═━═━『 𝗩𝗘𝗡𝗢𝗠 』━═━═━⋅⊰](https://t.me/MRv7x)
+        caption=f"""[⊱⋅━═━═『 𝗩𝗘𝗡𝗢𝗠 』═━═━⋅⊰](https://t.me/MRv7x)
  [𝘞𝘌𝘓𝘊𝘖𝘔𝘌 𝘝𝘌𝘕𝘖𝘔](https://t.me/MRv7x)
 
- [𝗦𝗢𝗨𝗥𝗖𝗘 𝗩𝗘𝗡𝗢𝗠](https://t.me/MRv7x)
+ [● قـنـاة الـسـورس 🎸](https://t.me/MRv7x)
 
- [𝗢𝗦𝗔𝗠𝗔 𝗩𝗘𝗡𝗢𝗠](https://t.me/WWWL5)
+ [● مـبـرمـج الـسـورس 👨‍✈️](https://t.me/WWWL5)
 
- [𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥𝗦](https://t.me/SOURCE_VENOM)
+ [● مـطـوريـنالـسـورس 👨‍💻](https://t.me/SOURCE_VENOM)
 ──┈┈┈┄┄╌╌╌╌┄┄┈┈┈
 [● تنصيب بوت مثل هذا 🎧](https://t.me/WWWL5)
-[⊱⋅━═━═━『 𝗩𝗘𝗡𝗢𝗠 』━═━═━⋅⊰](https://t.me/MRv7x)""",
+[⊱⋅━═━═『 𝗩𝗘𝗡𝗢𝗠 』═━═━⋅⊰](https://t.me/MRv7x)""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
@@ -144,7 +142,7 @@ async def new_chat(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🎸 ¦ السورس ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                            InlineKeyboardButton("🌐 ¦ الـقـنـاة ", url=f"https://t.me/{UPDATES_CHANNEL}"),
                             ],
                             [
                             InlineKeyboardButton("🎧 ¦ جـروب الدعم", url=f"https://t.me/{GROUP_SUPPORT}")
