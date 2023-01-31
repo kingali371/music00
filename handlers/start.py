@@ -10,37 +10,33 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_IMG}",
-        caption=f"""**⊱⋅━═━═━═─[『 𝗩𝗘𝗡𝗢𝗠 』](https://t.me/MRv7x)─━═━═━⋅⊰**\n
+        caption=f"""**⊱⋅━═━═━[『 𝗩𝗘𝗡𝗢𝗠 』](https://t.me/MRv7x)━═━═━⋅⊰**\n
 
 ● **انا بوت تشغيل وتنزيل الاغاني والفديو**\n
-
  ● **اضفني مشرف في مجموعتك لأعمل**\n
-
  ●**اتبع مايلي لمعرفه كيفيه الاستخدام**\n
-
  ● **اضغط علي ذر طريقه الاستخدام**\n
-
  ● **مميزات الروبوت يعمل بجودة فائقه**\n
 
-**⊱⋅━═━═━═─[『 𝗩𝗘𝗡𝗢𝗠 』](https://t.me/MRv7x)─━═━═━⋅⊰**\n""",
+**⊱⋅━═━═━[『 𝗩𝗘𝗡𝗢𝗠 』](https://t.me/MRv7x)━═━═━⋅⊰**\n""",
     reply_markup=InlineKeyboardMarkup(
              [
             [
                 InlineKeyboardButton("أضف لبوت لمجموعتك ✅", url=f"https://t.me/{bu}?startgroup=true"),
             ],
             [
-            InlineKeyboardButton( "🔎 كيف تستخدمني؟ قائمة الأوامر.",url=f"https://t.me/EE_74"),
+            InlineKeyboardButton( "🎙 قائمة الاوامر ",url=f"https://t.me/EE_74"),
             ],
             [
-            InlineKeyboardButton("𓂄𓆩𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 𝚅𝙴𝙽𝙾𝙼𓆪𓂁", url=f"https://t.me/SOURCE_VENOM"),
+            InlineKeyboardButton("𝘀𝗼𝗨𝗥𝗰𝗲 𝘃𝗲𝗡𝗼𝗺", url=f"https://t.me/MRv7x"),
               ],
               [
                   InlineKeyboardButton(
-                         " ☣️ ¦ جـروب الدعم ", url=f"https://t.me/{SUPPORT_GROUP}"
+                         " 🎧 ¦ جـروب الدعم ", url=f"https://t.me/{SUPPORT_GROUP}"
                 ),
             ],
             [
-                InlineKeyboardButton("𓂄𓆩𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙴𝙽𝙾𝙼𓆪𓂁", url=f"https://t.me/MRv7x"),
+                InlineKeyboardButton("لتنصيب بوت مثل هذا", url=f"https://t.me/WWWL5"),
             ]
          ]
      )
